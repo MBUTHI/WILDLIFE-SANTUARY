@@ -1,0 +1,19 @@
+/* Styling for the Back Button */
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px; /* Font size */
+    font-family: Arial, sans-serif; /* Font style */
+    border: none;
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 20px;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
